@@ -10,7 +10,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(255, 246, 230);
-  font-style: Georgia;
+  font: Georgia;
 }
 
 
@@ -81,7 +81,7 @@ nav a {
 /*typographic details */
 
 p {
-  font: Georgia;
+  font-family: Georgia, serif;
   color: rgb(51, 51, 51);
   margin-top: 2em;
   margin-bottom: 2em;
@@ -89,18 +89,18 @@ p {
   font-size: 1.2em;
 }
 
-header {
-  font: Georgia, serif;
+p.title{
   font-weight: bold;
-  color: rgb(35, 35, 35;
-}
-
-p.title {
-  font-weight: bold;
-  font: Georgia, serif;
+  font-family: Georgia;
 }
 
 p.publication {
   font-style: italic;
   margin: 0 1em;
 }
+
+header {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  color: rgb(35, 35, 35;
+  }
