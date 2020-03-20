@@ -1,7 +1,7 @@
 /* resets */
 
 html {
-  html scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(255, 246, 230);
-  font: Georgia;
+  font-family: Georgia;
 }
 
 
@@ -102,5 +102,5 @@ p.publication {
 header {
   font-family: Georgia, serif;
   font-weight: bold;
-  color: rgb(35, 35, 35;
+  color: rgb(35, 35, 35);
   }
